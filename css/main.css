@@ -103,3 +103,14 @@ img {
 .img--right {
   border-radius: var(--br-right);
 }
+
+@media screen and (max-width: 700px) {
+  .img--left {
+    display: none;
+  }
+  body {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
